@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { RiArrowRightSLine } from "react-icons/ri";
+import Layout from "../components/Layout";
 
 export default function user() {
   return (
@@ -33,10 +34,8 @@ export default function user() {
         </a>
       </Link>
       <Link href="/myFavoritesMovies">
-        <a className="flex flex-row justify-between">
-          <div className="pl-5 pt-2 border-solid  h-10 border-1 border-black">
-            Mes vidéos préférées
-          </div>
+        <a className="flex flex-row justify-between ">
+          <div className="pl-5 pt-2 h-30 ">Mes vidéos préférées</div>
           <RiArrowRightSLine size={24} />
         </a>
       </Link>
