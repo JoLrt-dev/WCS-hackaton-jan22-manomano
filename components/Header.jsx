@@ -6,11 +6,12 @@ import LogoManoMano from "../public/Img/LogoManoMano.png";
 export default function Header() {
   return (
     <div className="bg-red">
-      <Link href="/" passHref>
-        <a className="flex justify-center md:justify-end ">
+      <Link href="/">
+        <a className="flex justify-center md:justify-end bg-red">
           <Image src={LogoManoMano} alt="Logo" width="50px" height="50px" />
         </a>
       </Link>
+      <a className="text-blue">COUCOU</a>
     </div>
   );
 }
