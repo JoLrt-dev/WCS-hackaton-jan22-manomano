@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer";
 
 export default function Layout({ children, title }) {
   return (
@@ -10,7 +9,6 @@ export default function Layout({ children, title }) {
         {title}
       </h1>
       <main className="pb-16">{children}</main>
-      <Footer />
     </div>
   );
 }
