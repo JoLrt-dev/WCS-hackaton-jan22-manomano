@@ -1,36 +1,75 @@
 import Link from "next/link";
-import styles from "../styles/Home.module.css";
+
+import { RiArrowRightSLine } from "react-icons/ri";
 
 export default function user() {
   return (
     <div>
-      <h1 className="bg-blue-150">Bienvenue sur mon compte !</h1>
-      <h2>Ici, vous êtes comme à la maison</h2>
-      <h3>Mes commandes</h3>
-      <div>Toutes mes commandes</div>
-      <h3>Ma contribution</h3>
-      <Link href="/pages/myPoints">
+      <h1 className="m-5 text-2xl">Bienvenue sur votre compte !</h1>
+      <h2 className="m-5 text-xl">Ici, vous êtes comme à la maison</h2>
+      <h3 className="m-5 text-xl font-extrabold">Mes commandes</h3>
+      <div className="pl-5 pt-2 border-solid  h-10 border-1 border-black">
+        Toutes mes commandes
+      </div>
+      <h3 className="p-5 text-xl font-extrabold bg-zinc-200">
+        Ma contribution
+      </h3>
+      <Link href="/myPoints">
         <a>
-          <div>Mon solde de points</div>
+          <div className=" flex flex-row justify-between">
+            <div className="pl-5 pt-2  pr-20 border-solid h-10 border-1 border-black">
+              Mon solde de points
+            </div>{" "}
+            <RiArrowRightSLine size={24} />
+          </div>
         </a>
       </Link>
-      <Link href="/pages/myMovies">
-        <a>
-          <div>Mes vidéos</div>
+      <Link href="/myMovies">
+        <a className="flex flex-row justify-between">
+          <div className="pl-5 pt-2  border-solid  h-10 border-1 border-black">
+            Mes vidéos
+          </div>
+          <RiArrowRightSLine size={24} />
         </a>
       </Link>
-      <Link href="/pages/myFavoritesMovies">
-        <a>
-          <div>Mes vidéos préférées</div>
+      <Link href="/myFavoritesMovies">
+        <a className="flex flex-row justify-between">
+          <div className="pl-5 pt-2 border-solid  h-10 border-1 border-black">
+            Mes vidéos préférées
+          </div>
+          <RiArrowRightSLine size={24} />
         </a>
       </Link>
-      <h3>Mes informations personnelles</h3>
-      <div>Modifier mon email et mon mot de passe</div>
-      <div>Mes abonnements aux offres ManoMano</div>
 
-      <div>
-        besoin d'aide? Accèder à notre centre d'aide et trouvez la réponse à
-        toutes vos questions
+      <h3 className="p-5 text-xl font-extrabold bg-zinc-200">
+        Mes envies et avis
+      </h3>
+      <div className="flex flex-row justify-between">
+        <div className="pl-5 pt-2 border-solid  h-10 border-1 border-black">
+          Mes envies
+        </div>
+        <RiArrowRightSLine size={24} />
+      </div>
+      <div className="flex flex-row justify-between">
+        <div className="pl-5 pt-2 border-solid h-10 border-1 border-black">
+          Avis produits
+        </div>
+        <RiArrowRightSLine size={24} />
+      </div>
+      <h3 className="p-5 text-xl font-extrabold bg-zinc-200">
+        Mes informations personnelles
+      </h3>
+      <div className="flex flex-row justify-between">
+        <div className="pl-5 pt-2 border-solid h-10 border-1 border-black">
+          Modifier mon email et mon mot de passe
+        </div>
+        <RiArrowRightSLine size={24} />
+      </div>
+      <div className="flex flex-row justify-between">
+        <div className="pl-5  pt-2 border-solid  h-10 border-1 border-black">
+          Mes abonnements aux offres ManoMano
+        </div>
+        <RiArrowRightSLine size={24} />
       </div>
     </div>
   );
