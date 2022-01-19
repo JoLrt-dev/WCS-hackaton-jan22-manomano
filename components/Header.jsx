@@ -5,13 +5,13 @@ import LogoManoMano from "../public/Img/LogoManoMano.png";
 
 export default function Header() {
   return (
-    <div className="bg-red">
+    <div className="bg-red-700">
       <Link href="/">
-        <a className="flex justify-center md:justify-end bg-red">
-          <Image src={LogoManoMano} alt="Logo" width="50px" height="50px" />
+        <a className="flex justify-center md:justify-end bg-red-700">
+          <Image src={LogoManoMano} alt="Logo" width="100px" height="50px" />
         </a>
       </Link>
-      <a className="text-blue">COUCOU</a>
+      <p className="text-red-600">COUCOU</p>
     </div>
   );
 }
