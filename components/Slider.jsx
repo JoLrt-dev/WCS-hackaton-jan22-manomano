@@ -8,25 +8,28 @@ import ManoSoldes from "../public/Img/ManoSoldes.jpg";
 const Slider = () => {
   const baseUrl = "./public/Img/";
   return (
-    <Carousel
-      infiniteLoop
-      autoPlay
-      swipeable
-      interval={5000}
-      transitionTime={700}
-      thumbWidth={90}
-      showThumbs={false}
-      showStatus={false}
-      showArrows={false}
-    >
-      <Image
-        src={ManoPoints}
-        alt="ManoPoints program"
-        width={360}
-        height={206}
-      />
-      <Image src={ManoSoldes} alt="Soldes" width={360} height={206} />
-    </Carousel>
+    <div>
+      <Carousel
+        infiniteLoop
+        autoPlay
+        swipeable
+        interval={5000}
+        transitionTime={700}
+        thumbWidth={90}
+        showThumbs={false}
+        showStatus={false}
+        showArrows={false}
+        dynamicHeight={true}
+      >
+        <Image
+          src={ManoPoints}
+          alt="ManoPoints program"
+          width={360}
+          height={206}
+        />
+        <Image src={ManoSoldes} alt="Soldes" width={360} height={206} />
+      </Carousel>
+    </div>
   );
 };
 
