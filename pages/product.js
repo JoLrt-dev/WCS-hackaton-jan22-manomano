@@ -4,7 +4,8 @@ import Layout from "../components/Layout";
 import perceuse from "../public/Img/perceuse.png";
 import { BsStarFill, BsStar, BsPaypal } from "react-icons/bs";
 import { FaCcVisa, FaCcMastercard } from "react-icons/fa";
-import { GiPadlock } from "react-icons/gi"
+import { GiPadlock } from "react-icons/gi";
+import ReactPlayer from "react-player";
 
 export default function Product() {
   return (
@@ -56,16 +57,12 @@ export default function Product() {
             <div className="prod-info grid gap-10">
               <div className="flex flex-col md:flex-row justify-between items-center text-gray-900">
                 <p className="font-bold text-3xl text-gray-900">Prix : 56 €</p>
-                {/* <button className="px-6 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none">
-            Ajouter au panier
-          </button> */}
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* <div className="flex flex-wrap items-center justify-center"> */}
       <div className="w-200 flex justify-center items-center">
         <div className="w-full">
           <div className="card flex flex-col justify-center p-6 bg-white rounded-lg shadow-2xl">
@@ -103,13 +100,35 @@ export default function Product() {
                     Ajouter au panier
                   </button>
                   <p className="pt-2 text-m text-gray-400 flex">
-                    <GiPadlock className="m-1"/> Paiement sécurisé
+                    <GiPadlock className="m-1" /> Paiement sécurisé
                   </p>
                   <div className="flex">
                     <FaCcVisa size="30px" className="m-2" />
                     <FaCcMastercard size="30px" className="m-2" />
                     <BsPaypal size="30px" className="m-2" />
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-200 h-200 flex justify-center items-center">
+            <div className="w-full">
+              <div className="card flex flex-col justify-center p-6 bg-white rounded-lg shadow-2xl">
+                <div className="prod-title">
+                  <p className="text-l uppercase text-gray font-bold text-center">
+                    Présentation vidéo du produit
+                  </p>
+                  <p className="text-xl text-gray font-bold"></p>
+                  <p className="text-l text-gray font-bold"></p>
+                  <p className="uppercase text-sm text-gray-400"></p>
+                  <p className="text-sm text-gray-800 p-2"></p>
+                  <div className="flex"></div>
+                </div>
+                <div className="prod-img">
+                    <ReactPlayer url='https://www.youtube.com/watch?v=eP0-5Chb8k8' width="100%" />
+                </div>
+                <div className="prod-info grid gap-10">
+                  <div className="flex flex-col md:flex-row justify-between items-center text-gray-900"></div>
                 </div>
               </div>
             </div>
