@@ -2,7 +2,7 @@ import next from "next";
 import Layout from "../components/Layout";
 import Image from "next/image";
 import ReactPlayer from "react-player";
-import avatar2 from "../public/Img/avatar2.jpg";
+import avatar1 from "../public/Img/avatar1.jpeg";
 import man from "../public/Img/man.jpeg";
 import girl from "../public/Img/girl.jpeg";
 import woman from "../public/Img/woman.jpeg";
@@ -18,14 +18,14 @@ export default function Tutorial() {
           matériel
         </h3>
       </div>
-      <div className=" rounded overflow-hidden border w-full lg:w-6/12 md:w-6/12 bg-white mx-3 md:mx-0 lg:mx-0 mb-4">
+      <div className="rounded overflow-hidden border w-full lg:w-6/12 md:w-6/12 bg-white mx-3 md:mx-0 lg:mx-0 mb-4 ">
         <div className="w-full flex justify-between p-3">
           <div className="flex">
-            <div className="rounded-full h-8 w-8 bg-gray-500 flex items-center justify-center overflow-hidden">
-              <Image src={avatar2} alt="profilepic" />
+            <div className="rounded-full h-12 w-12  bg-gray-500 flex items-center justify-center overflow-hidden">
+              <Image src={avatar1} alt="profilepic" />
             </div>
           </div>
-          <span className="pt-1 ml-2 font-bold text-sm mr-2">Braydoncoyer</span>
+          <span className="pt-1 ml-2 font-bold text-l mr-2">Braydoncoyer</span>
         </div>
         <span className="px-2 hover:bg-gray-300 cursor-pointer rounded">
           <i className="fas fa-ellipsis-h pt-2 text-lg"></i>
@@ -66,11 +66,11 @@ export default function Tutorial() {
       <div className=" rounded overflow-hidden border w-full lg:w-6/12 md:w-6/12 bg-white mx-3 md:mx-0 lg:mx-0">
         <div className="w-full flex justify-between p-3">
           <div className="flex">
-            <div className="rounded-full h-8 w-8 bg-gray-500 flex items-center justify-center overflow-hidden">
+            <div className="rounded-full h-12 w-12 bg-gray-500 flex items-center justify-center overflow-hidden">
               <Image src={man} alt="profilepic" />
             </div>
           </div>
-          <span className="pt-1 ml-2 font-bold text-sm mr-6">Robert Brico</span>
+          <span className="pt-1 ml-2 font-bold text-l mr-6">Robert Brico</span>
         </div>
         <span className="px-2 hover:bg-gray-300 cursor-pointer rounded">
           <i className="fas fa-ellipsis-h pt-2 text-lg"></i>
@@ -114,11 +114,11 @@ export default function Tutorial() {
       <div className=" rounded overflow-hidden border w-full lg:w-6/12 md:w-6/12 bg-white mx-3 md:mx-0 lg:mx-0 mb-4">
         <div className="w-full flex justify-between p-3">
           <div className="flex">
-            <div className="rounded-full h-8 w-8 bg-gray-500 flex items-center justify-center overflow-hidden">
+            <div className="rounded-full h-12 w-12 bg-gray-500 flex items-center justify-center overflow-hidden">
               <Image src={girl} alt="profilepic" />
             </div>
           </div>
-          <span className="pt-1 ml-2 font-bold text-sm mr-6">Nath Brico</span>
+          <span className="pt-1 ml-2 font-bold text-l mr-6">Nath Brico</span>
         </div>
         <span className="px-2 hover:bg-gray-300 cursor-pointer rounded">
           <i className="fas fa-ellipsis-h pt-2 text-lg"></i>
@@ -156,11 +156,11 @@ export default function Tutorial() {
       <div className=" rounded overflow-hidden border w-full lg:w-6/12 md:w-6/12 bg-white mx-3 md:mx-0 lg:mx-0">
         <div className="w-full flex justify-between p-3">
           <div className="flex">
-            <div className="rounded-full h-8 w-8 bg-gray-500 flex items-center justify-center overflow-hidden">
+            <div className="rounded-full h-12 w-12 bg-gray-500 flex items-center justify-center overflow-hidden">
               <Image src={woman} alt="profilepic" />
             </div>
           </div>
-          <span className="pt-1 ml-2 font-bold text-sm mr-6">Sarah</span>
+          <span className="pt-1 ml-2 font-bold text-l mr-6">Sarah</span>
         </div>
         <span className="px-2 hover:bg-gray-300 cursor-pointer rounded">
           <i className="fas fa-ellipsis-h pt-2 text-lg"></i>
