@@ -26,8 +26,9 @@ export default function Header() {
         <div className="box justify-items-end cursor-pointer">
           <Link href="/userCompte" passHref>
             <a>
-              <p className="text-slate-600 text-sm mr-4 ">Mon compte</p>
-              <CgShoppingCart />
+              <p className="text-slate-600 text-sm mr-4 flex">
+                Mon compte <CgShoppingCart />
+              </p>
             </a>
           </Link>
         </div>
@@ -45,10 +46,10 @@ export default function Header() {
               <input
                 type="search"
                 name="search"
-                className="rounded-2xl z-10 ml-3 align-bottom p-1 pl-4 md:w-15"
+                className="  z-10 ml-3 align-bottom p-1 pl-4 md:w-15"
                 placeholder="Rechercher un produit..."
               />
-              <VscSearch />
+              <VscSearch className="" />
             </a>
           </div>
         </div>
