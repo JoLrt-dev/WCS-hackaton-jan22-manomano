@@ -3,12 +3,14 @@ import Link from "next/link";
 import Image from "next/image";
 import LogoManoMano from "../public/Img/LogoManoMano.png";
 import { CgShoppingCart } from "react-icons/cg";
+import { VscSearch } from "react-icons/vsc";
+import { AiOutlineMenu } from "react-icons/ai";
 
 export default function Header() {
   return (
     <header className=" bg-gray-50">
-      <nav className="flex justify-between p-2 items-center">
-        <div className="flex items-center space-x-2">
+      <nav className="grid overflow-hidden grid-cols-2 grid-rows-2 gap-px">
+        <div className="box">
           <Link href="/">
             <a className="sm:inline-block text-gray-700 cursor-pointer">
               <Image
@@ -20,35 +22,36 @@ export default function Header() {
             </a>
           </Link>
         </div>
-        <div className="flex items-center space-x-8">
-        <Link href="/userCompte" passHref>
-          <p className=" text-slate-600 text-sm mr-4 cursor-pointer">
-            Identifiez-vous
-          </p>
+
+        <div className="box justify-items-end cursor-pointer">
+          <Link href="/userCompte" passHref>
+            <a>
+              <p className="text-slate-600 text-sm mr-4 ">Identifiez-vous</p>
+              <CgShoppingCart />
+            </a>
           </Link>
-          <CgShoppingCart />
         </div>
-        <div className="flex items-center space-x-2">
-          <div className="ml-2 tham tham-e-squeeze tham-w-6">
-            <div className="tham-box">
-              <div className="tham-inner" />
-            </div>
-          </div>
+
+        <div className="box">
+          <AiOutlineMenu size={25} />
         </div>
-        {/*    <div className=" bg-gray-200">
-          <div className="container h-screen flex justify-center items-center px-4 sm:px-6 lg:px-8">
-            <div className="relative">
+
+        <div className="flex justify-end">
+          <div className="flex-around hover:w-1/7 group">
+            <a
+              href="#"
+              className="flex items-center justify-center text-center mx-auto px-4 py-2 group-hover:w-1/5 text-black"
+            >
               <input
-                type="text"
-                className="h-9 w-60 pr-8 pl-5 rounded z-0 focus:shadow focus:outline-none"
+                type="search"
+                name="search"
+                className="rounded-2xl z-10 ml-3 align-bottom p-1 pl-4 md:w-15"
                 placeholder="Rechercher un produit..."
               />
-              <div className="absolute top-4 right-3">
-                <i className="fa fa-search text-gray-400 z-20 hover:text-gray-500"></i>{" "}
-              </div>
-            </div>
+              <VscSearch />
+            </a>
           </div>
-        </div> */}
+        </div>
       </nav>
     </header>
   );
