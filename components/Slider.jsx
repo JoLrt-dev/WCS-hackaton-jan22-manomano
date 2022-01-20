@@ -28,13 +28,13 @@ const Slider = () => {
             <Image
               src={ManoPoints}
               alt="ManoPoints program"
-              width={360}
-              height={206}
+              width={440}
+              height={286}
             />
           </a>
         </Link>
 
-        <Image src={ManoSoldes} alt="Soldes" width={360} height={206} />
+        <Image src={ManoSoldes} alt="Soldes" width={440} height={286} />
       </Carousel>
     </div>
   );
