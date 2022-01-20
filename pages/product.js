@@ -60,12 +60,12 @@ export default function Product() {
               <p className="text-l uppercase text-gray font-bold">
                 REF 5816 | ME9259885
               </p>
-              <p className="text-xl text-gray font-bold">Perceuse visseuse</p>
+              <p className="text-xl text-gray font-bold">Drill and screw machine</p>
               <p className="text-l text-gray font-bold">
-                sans fil TEENO PSR 21V
+                 TEENO PSR 21V
               </p>
               <p className="uppercase text-sm text-gray-400">
-                2 batteries + 41 accessoires + gants professionels - Rouge
+                2 batteries + 41 accessories + professional gloves - Red
               </p>
               <p className="text-sm text-gray-800 p-2">En stock</p>
               <div className="flex">
@@ -122,7 +122,7 @@ export default function Product() {
               <div className="prod-info grid gap-10">
                 <div className="mt-4 flex flex-col md:flex-row justify-between items-center text-gray-900">
                   <button className="px-6 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none">
-                    Ajouter au panier
+                    Add a card
                   </button>
                   <p className="pt-2 text-m text-gray-400 flex">
                     <GiPadlock className="m-1" /> Paiement sécurisé
@@ -141,7 +141,7 @@ export default function Product() {
               <div className="card flex flex-col justify-center p-6 bg-white rounded-lg shadow-2xl">
                 <div className="prod-title">
                   <p className="text-l uppercase text-gray font-bold text-center">
-                    Présentation vidéo du produit
+                  Product video presentation
                   </p>
                   <p className="text-xl text-gray font-bold"></p>
                   <p className="text-l text-gray font-bold"></p>
@@ -164,7 +164,7 @@ export default function Product() {
         </div>
       </div>
       <p className="text-l uppercase text-gray font-bold text-center p-10">
-                    Produits associés
+      associated products
                   </p>
       <Swiper
             spaceBetween={30}
