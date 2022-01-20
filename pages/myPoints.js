@@ -14,7 +14,7 @@ export default function myPoints() {
           </a>
         </Link>
 
-        <h1 className="text-2xl m-7 text-center">Mon solde de points</h1>
+        <h1 className="text-2xl m-7 text-center">My points balance</h1>
         <div className="  m-10 bg-white border-solid border-4 border-primary-200 h-60 p-1">
           <p className="p-5">
             Your points balance is 150 points, you are entitled to 5% discount

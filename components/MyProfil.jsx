@@ -20,14 +20,14 @@ export default function MyProfil() {
           <div className=" bg-green-600 ">
             <div className="w-15">
               <p className="text-white p-1 text-center text-xs m-2">
-                Modifier votre profil
+                Edit your profile
               </p>
             </div>
           </div>
         </div>
         <div className="pl-5">
-          <p className="text-white pt-5 text-sm">Bricoleur.2358455</p>
-          <p className="text-white pl-50 text-sm">Membre depuis 25 jours</p>
+          <p className="text-white pt-5 text-sm">Handyman.2358455</p>
+          <p className="text-white pl-50 text-sm">Member for 25 days</p>
         </div>
       </div>
     </div>

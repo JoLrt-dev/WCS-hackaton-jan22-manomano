@@ -33,29 +33,29 @@ export default function addMovie() {
           </a>
         </Link>
         <h1 className="m-5 text-xl font-extrabold text-center">
-          Ajouter un tutoriel
+          Add a tutorial
         </h1>
         <form
           onSubmit={handleSubmit}
           className="flex flex-col bg-white border-solid border-4 border-primary-500 m-2 p-3"
         >
-          <label className="m-3">Votre nom</label>
+          <label className="m-3">Your name</label>
           <input
             className="p-2 bg-primary border-solid border-4 border-primary m-2 text-center"
             type="text"
             value={nameVideo}
-            placeholder="Votre nom"
+            placeholder="Your name"
             onChange={(e) => {
               writeStorage(setNameVideo(e.target.value));
             }}
           ></input>
 
-          <label className="m-3">Url de votre vidéo</label>
+          <label className="m-3">Url of your video</label>
           <input
             type="url"
             value={url}
             className="bg-primary p-3 border-solid border-4 border-primary m-2 text-center"
-            placeholder="URL de votre vidéo"
+            placeholder=" URL of your video"
             onChange={(e) => {
               writeStorage(setUrl(e.target.value));
             }}
@@ -66,7 +66,7 @@ export default function addMovie() {
             type="text"
             value={description}
             className="bg-primary p-3 border-solid border-4 border-primary m-2 text-center  h-52"
-            placeholder="Description du contenu de la vidéo"
+            placeholder="Description video content"
             onChange={(e) => {
               writeStorage(setDescription(e.target.value));
             }}
@@ -76,7 +76,7 @@ export default function addMovie() {
             className="m-3 mt-10 p-2 bg-primary border-solid border-2 border-primary-300"
             type="submit"
           >
-            Ajouter
+            Add
           </button>
         </form>
       </Layout>
