@@ -69,11 +69,11 @@ export default function Product() {
               </p>
               <p className="text-sm text-gray-800 p-2">En stock</p>
               <div className="flex">
-                <BsStarFill size="20px" />
-                <BsStarFill size="20px" />
-                <BsStarFill size="20px" />
-                <BsStarFill size="20px" />
-                <BsStar size="20px" />
+                <BsStarFill size="20px" className={styles.rate}/>
+                <BsStarFill size="20px" className={styles.rate}/>
+                <BsStarFill size="20px" className={styles.rate}/>
+                <BsStarFill size="20px" className={styles.rate}/>
+                <BsStar size="20px" className={styles.rate}/>
               </div>
             </div>
             <div className="prod-img"></div>
