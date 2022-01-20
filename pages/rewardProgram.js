@@ -7,10 +7,10 @@ const rewardProgram = () => {
   return (
     <Layout>
       <div
-        className="m-6 border border-solid border-blue-800 rounded-lg p-4"
+        className="m-6 border border-solid border-gray-900 rounded-lg p-4"
         id="conditions-bloc"
       >
-        <h5 className="underline underline-offset-2 text-lg pb-6">
+        <h5 className="underline underline-offset-2 text-lg font-bold pb-6">
           ManoPoints en quelques points:
         </h5>
         <div id="conditions-list">
@@ -45,7 +45,7 @@ const rewardProgram = () => {
       </div>
 
       <div id="post-video">
-        <p className="text-lg m-8 text-center">
+        <p className=" font-bold text-lg m-8 text-center">
           {" "}
           Ajoutez dès maintenant votre premère vidéo et commencez à cumuler des
           points !{" "}
@@ -55,7 +55,7 @@ const rewardProgram = () => {
             <a>
               <GrAdd
                 size={"5em"}
-                className="border border-solid border-blue-800 rounded-lg p-4"
+                className="border border-solid border-gray-900 rounded-lg p-4"
               />
             </a>
           </Link>
