@@ -2,6 +2,7 @@ import Link from "next/link";
 import avatar from "../public/Img/avatar-mr-brico.webp";
 import Image from "next/image";
 import Layout from "../components/Layout";
+import myProfil from "../components/myProfil";
 
 export default function myPoints() {
   return (
