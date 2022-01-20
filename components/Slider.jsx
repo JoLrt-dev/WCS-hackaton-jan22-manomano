@@ -4,10 +4,9 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import React, { useEffect, useState } from "react";
 import ManoPoints from "../public/Img/ManoPoints.png";
-import ManoSoldes from "../public/Img/ManoSoldes.jpg";
+import ManoSolde from "../public/Img/ManoSolde.jpeg";
 
 const Slider = () => {
-  const baseUrl = "./public/Img/";
   return (
     <div>
       <Carousel
@@ -34,7 +33,7 @@ const Slider = () => {
           </a>
         </Link>
 
-        <Image src={ManoSoldes} alt="Soldes" width={440} height={286} />
+        <Image src={ManoSolde} alt="Soldes" width={440} height={286} />
       </Carousel>
     </div>
   );
