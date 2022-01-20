@@ -21,9 +21,11 @@ export default function Header() {
           </Link>
         </div>
         <div className="flex items-center space-x-8">
+        <Link href="/userCompte" passHref>
           <p className=" text-slate-600 text-sm mr-4 cursor-pointer">
             Identifiez-vous
           </p>
+          </Link>
           <CgShoppingCart />
         </div>
         <div className="flex items-center space-x-2">
