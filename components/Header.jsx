@@ -20,12 +20,13 @@ export default function Header() {
             </a>
           </Link>
         </div>
-        <div className="flex items-center space-x-8">
+        <Link href="/userCompte" passHref>
           <p className=" text-slate-600 text-sm mr-4 cursor-pointer">
-            Identifiez-vous
+            Mon compte
           </p>
-          <CgShoppingCart />
-        </div>
+        </Link>
+        <CgShoppingCart />
+
         <div className="flex items-center space-x-2">
           <div className="ml-2 tham tham-e-squeeze tham-w-6">
             <div className="tham-box">
