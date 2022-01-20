@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import React, { useEffect, useState } from "react";
@@ -21,12 +22,18 @@ const Slider = () => {
         showArrows={false}
         dynamicHeight={true}
       >
-        <Image
-          src={ManoPoints}
-          alt="ManoPoints program"
-          width={360}
-          height={206}
-        />
+        <Link href="/rewardProgram" passHref>
+          <a>
+            {" "}
+            <Image
+              src={ManoPoints}
+              alt="ManoPoints program"
+              width={360}
+              height={206}
+            />
+          </a>
+        </Link>
+
         <Image src={ManoSoldes} alt="Soldes" width={360} height={206} />
       </Carousel>
     </div>
