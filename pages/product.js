@@ -120,7 +120,7 @@ export default function Product() {
               </div>
               <div className="prod-img"></div>
               <div className="prod-info grid gap-10">
-                <div className="flex flex-col md:flex-row justify-between items-center text-gray-900">
+                <div className="mt-4 flex flex-col md:flex-row justify-between items-center text-gray-900">
                   <button className="px-6 py-2 transition ease-in duration-200 uppercase rounded-full hover:bg-gray-800 hover:text-white border-2 border-gray-900 focus:outline-none">
                     Ajouter au panier
                   </button>
