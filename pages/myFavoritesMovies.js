@@ -19,7 +19,7 @@ export default function myfavoritesMovies() {
         </Link>
 
         <h1 className="text-2xl m-10 text-center font-extrabold">
-          Mes tutoriels favoris
+          My favorites tutorials
         </h1>
         {/*  --------------------------------card--------------------------------------------------- */}
         <div className=" shadow-2xl rounded overflow-hidden border w-50 lg:w-6/12 md:w-6/12 bg-white mx-3 ">
@@ -53,20 +53,20 @@ export default function myfavoritesMovies() {
                 <span className="font-medium mr-2 text-blue-600">
                   Braydoncoyer
                 </span>{" "}
-                J&apos;ai testé la perceuse TEENO et je vous livre mon sentiment
-                sur sa qualité et ses performances.
+                I tested the TEENO drill and I give you my feeling on its
+                quality and performance.
               </div>
             </div>
             <div className="text-sm mb-2 text-gray-400 cursor-pointer font-medium">
-              Vue des 14 commentaires
+              View of 14 comments
             </div>
             <div className="mb-2">
               <div className="mb-2 text-sm">
                 <span className="font-medium mr-2 text-blue-600">
                   SuperBricolo
                 </span>{" "}
-                Merci pour cette superbe vidéo, qui a fait finaliser mon achat
-                de cette perceuse !
+                Thank you for this great video, which finalized my purchase of
+                this drill!
               </div>
             </div>
           </div>
@@ -103,20 +103,20 @@ export default function myfavoritesMovies() {
                 <span className="font-medium mr-2 text-blue-600">
                   Braydoncoyer
                 </span>{" "}
-                Dans cette vidéo je vous présente les différentes méthodes pour
-                scier et découper le métal.
+                In this video I show you the different methods to sawing and
+                cutting metal.
               </div>
             </div>
             <div className="text-sm mb-2 text-gray-400 cursor-pointer font-medium">
-              Vue des 70 commentaires
+              View of 70 comments
             </div>
             <div className="mb-2">
               <div className="mb-2 text-sm">
                 <span className="font-medium mr-2 text-blue-600">
                   SuperBricolo
                 </span>{" "}
-                Merci pour cette exellente vidéo Robert, très utile pour mes
-                prochains travaux.
+                Thank you for this excellent video Robert, very useful for
+                future work.
               </div>
             </div>
           </div>
