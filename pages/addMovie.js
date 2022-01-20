@@ -1,7 +1,8 @@
 import { useRouter } from "next/router";
 import MyProfil from "../components/MyProfil";
 import Layout from "../components/Layout";
-
+import Link from "next/link";
+import { BsArrowLeft } from "react-icons/bs";
 import { writeStorage, useLocalStorage } from "@rehooks/local-storage";
 
 export default function addMovie() {
@@ -26,6 +27,11 @@ export default function addMovie() {
     <div>
       <Layout>
         <MyProfil />
+        <Link href="/userCompte">
+          <a>
+            <BsArrowLeft className="ml-5 mt-2" size={28} />
+          </a>
+        </Link>
         <h1 className="m-5 text-xl font-extrabold text-center">
           Ajouter un tutoriel
         </h1>

@@ -6,13 +6,16 @@ export default function MyMovie() {
   if (typeof window === "undefined") {
     return null;
   } else {
-    JSON.parse(localStorage.getItem("myMovie"));
+    JSON.parse(localStorage.getItem("myMovie")) ?? null;
 
     const myMovie = JSON.parse(localStorage.getItem("myMovie"));
-    {
+
+    if (!myMovie) {
+      return <div></div>;
+    } else {
       return (
         <div
-          key={myMovie.id}
+          key={myMovie?.id}
           className=" shadow-2xl rounded overflow-hidden border w-50 lg:w-6/12 md:w-6/12 bg-white mx-3 "
         >
           <div className="w-full flex justify-between p-3">
@@ -22,13 +25,13 @@ export default function MyMovie() {
               </div>
             </div>
             <span className="pt-1 ml-2 font-bold text-l mr-2">
-              {myMovie.nameVideo}
+              {myMovie?.nameVideo}
             </span>
           </div>
           <span className="px-2 hover:bg-gray-300 cursor-pointer rounded">
             <i className="fas fa-ellipsis-h pt-2 text-lg"></i>
           </span>
-          <ReactPlayer url={myMovie.url} width="100%" />
+          <ReactPlayer url={myMovie?.url} width="100%" />
 
           <div className="px-3 pb-2">
             <div className="pt-2">
@@ -37,9 +40,9 @@ export default function MyMovie() {
             <div className="pt-1">
               <div className="mb-2 text-sm">
                 <span className="font-medium mr-2 text-blue-600">
-                  {myMovie.nameVideo}
+                  {myMovie?.nameVideo}
                 </span>{" "}
-                {myMovie.description}
+                {myMovie?.description}
               </div>
             </div>
           </div>
