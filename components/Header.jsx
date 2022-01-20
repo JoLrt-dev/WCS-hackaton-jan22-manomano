@@ -43,16 +43,14 @@ export default function Header() {
               href="#"
               className="flex items-center justify-center text-center mx-auto px-4 py-2 group-hover:w-1/5 text-black"
             >
-             
-              <input
-                type="search"
-                name="search"
-                className=" rounded-2xl z-10 ml-3 align-bottom p-1 pl-4 md:w-15"
-                placeholder="Rechercher un produit..."
-              />
-              <VscSearch className=""/>
-           
               
+              <input
+                type="search" className="w-full px-4 py-1 text-gray-800 rounded-full focus:outline-none rounded-r-lg"
+                placeholder="search" x-model="search"
+              />
+              
+              <VscSearch className="rounded-r-lg bg-white w-8 h-8"/>
+            
             </a>
           </div>
         </div>
