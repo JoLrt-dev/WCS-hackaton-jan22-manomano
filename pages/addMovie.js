@@ -1,17 +1,16 @@
 import { useRouter } from "next/router";
-import { useState } from "react";
 import MyProfil from "../components/MyProfil";
 import Layout from "../components/Layout";
-import avatar from "../public/Img/avatar-mr-brico.webp";
-import Image from "next/image";
+
+import { writeStorage, useLocalStorage } from "@rehooks/local-storage";
 
 export default function addMovie() {
   const router = useRouter();
-  const [nameVideo, setNameVideo] = useState("");
-  const [url, setUrl] = useState("");
-  const [description, setDescription] = useState("");
+  const [nameVideo, setNameVideo] = useLocalStorage("name");
+  const [url, setUrl] = useLocalStorage("urm");
+  const [description, setDescription] = useLocalStorage("qsdf");
 
-  const handleSubmit = (e) => {
+  function handleSubmit(e) {
     e.preventDefault();
     const newVideo = {
       nameVideo,
@@ -19,8 +18,9 @@ export default function addMovie() {
       description,
     };
     localStorage.setItem("myMovie", JSON.stringify(newVideo));
+
     router.push("/myMovies");
-  };
+  }
 
   return (
     <div>
@@ -40,7 +40,7 @@ export default function addMovie() {
             value={nameVideo}
             placeholder="Votre nom"
             onChange={(e) => {
-              setNameVideo(e.target.value);
+              writeStorage(setNameVideo(e.target.value));
             }}
           ></input>
 
@@ -51,7 +51,7 @@ export default function addMovie() {
             className="bg-primary p-3 border-solid border-4 border-primary m-2 text-center"
             placeholder="URL de votre vidéo"
             onChange={(e) => {
-              setUrl(e.target.value);
+              writeStorage(setUrl(e.target.value));
             }}
           ></input>
 
@@ -62,7 +62,7 @@ export default function addMovie() {
             className="bg-primary p-3 border-solid border-4 border-primary m-2 text-center  h-52"
             placeholder="Description du contenu de la vidéo"
             onChange={(e) => {
-              setDescription(e.target.value);
+              writeStorage(setDescription(e.target.value));
             }}
           ></input>
 

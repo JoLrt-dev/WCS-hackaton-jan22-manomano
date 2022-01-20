@@ -4,7 +4,7 @@ import MyProfil from "../components/MyProfil";
 import { RiArrowRightSLine } from "react-icons/ri";
 import Layout from "../components/Layout";
 
-export default function user() {
+export default function userCompte() {
   return (
     <div>
       <Layout>
@@ -12,7 +12,10 @@ export default function user() {
         <h1 className="m-5 text-2xl">Bienvenue sur votre compte !</h1>
         <h2 className="m-5 text-xl">Ici, vous êtes comme à la maison</h2>
         <h3 className="m-5 text-xl font-extrabold">Mes commandes</h3>
-        <div className="pl-5 pt-2 h-10 bg-white">Toutes mes commandes</div>
+        <div className="flex flex-row justify-between bg-white">
+          <div className="pl-5 pt-2 h-10 ">Toutes mes commandes</div>{" "}
+          <RiArrowRightSLine size={24} className="m-2" />
+        </div>
         <div className="bg-primary ">
           <h3 className="p-5 text-xl font-extrabold bg-primary">
             Ma contribution
@@ -20,7 +23,7 @@ export default function user() {
           <Link href="/myPoints">
             <a>
               <div className=" flex flex-row justify-between bg-white">
-                <div className="pl-5 pt-2  mb-2 pr-20 border-solid h-10 border-1 border-black">
+                <div className="pl-5 pt-2  pr-20 border-solid h-10 border-1 border-black">
                   Mon solde de points
                 </div>{" "}
                 <RiArrowRightSLine size={24} />
@@ -37,7 +40,7 @@ export default function user() {
           </Link>
           <Link href="/myFavoritesMovies">
             <a className="flex flex-row justify-between bg-white">
-              <div className="pl-5 pt-2 h-30 ">Mes vidéos préférées</div>
+              <div className="pl-5 pt-2 p-2 h-30 ">Mes vidéos préférées</div>
               <RiArrowRightSLine size={24} />
             </a>
           </Link>
