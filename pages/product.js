@@ -123,7 +123,7 @@ export default function Product() {
                     Add a card
                   </button>
                   <p className="pt-2 text-m text-gray-400 flex">
-                    <GiPadlock className="m-1" /> Paiement sécurisé
+                    <GiPadlock className="m-1" /> secure payment
                   </p>
                   <div className="flex">
                     <FaCcVisa size="30px" className="m-2" />
