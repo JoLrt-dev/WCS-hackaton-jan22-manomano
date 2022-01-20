@@ -60,7 +60,7 @@ export default function Header() {
       </nav>
       <div className="flex justify-between items-center flex-wrap text-sm mx-4">
         <p>Bons plans</p>
-        <p>Meilleurs plans</p>
+        <p>Meilleures ventes</p>
         <Link href="/product" passHref>
           <a>
             <p>Produits</p>
