@@ -27,7 +27,7 @@ export default function Header() {
           <Link href="/userCompte" passHref>
             <a>
               <p className="text-slate-600 text-sm mr-4 flex pt-3">
-                Mon compte <CgShoppingCart size={25} className="pl-2" />
+                My account <CgShoppingCart size={25} className="pl-2" />
               </p>
             </a>
           </Link>
@@ -59,17 +59,17 @@ export default function Header() {
         </div>
       </nav>
       <div className="flex justify-between items-center flex-wrap text-sm mx-4">
-        <p>Bons plans</p>
-        <p>Meilleures ventes</p>
+        <p>Great deals</p>
+        <p>Best seller</p>
         <Link href="/product" passHref>
           <a>
-            <p>Produits</p>
+            <p>Products</p>
           </a>
         </Link>
 
         <Link href="/tutorial" passHref>
           <a>
-            <p>Tutoriels</p>
+            <p>Tutorials</p>
           </a>
         </Link>
       </div>
