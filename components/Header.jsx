@@ -4,6 +4,7 @@ import Image from "next/image";
 import LogoManoMano from "../public/Img/LogoManoMano.png";
 import { CgShoppingCart } from "react-icons/cg";
 import { VscSearch } from "react-icons/vsc";
+import { AiOutlineMenu } from "react-icons/ai";
 
 export default function Header() {
   return (
@@ -32,11 +33,7 @@ export default function Header() {
         </div>
 
         <div className="box">
-          <div className="ml-2 tham tham-e-squeeze tham-w-6">
-            <div className="tham-box">
-              <div className="tham-inner" />
-            </div>
-          </div>
+          <AiOutlineMenu size={25} />
         </div>
 
         <div className="flex justify-end">
