@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import LogoManoMano from "../public/Img/";
+import LogoManoMano from "../public/Img/LogoManoMano.png";
+import { CgShoppingCart } from "react-icons/cg";
 
 export default function Header() {
   return (
@@ -20,14 +21,9 @@ export default function Header() {
           </Link>
         </div>
         <div className="flex items-center space-x-8">
-          <Link href="/userCompte">
-            <a>
-              {" "}
-              <p className=" text-slate-600 text-sm mr-4 cursor-pointer">
-                Compte
-              </p>
-            </a>
-          </Link>
+          <p className=" text-slate-600 text-sm mr-4 cursor-pointer">
+            Identifiez-vous
+          </p>
           <CgShoppingCart />
         </div>
         <div className="flex items-center space-x-2">
