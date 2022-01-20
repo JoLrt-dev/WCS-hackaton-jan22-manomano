@@ -22,7 +22,7 @@ export default function Header() {
           </Link>
         </div>
 
-        <div className="box items-end cursor-pointer">
+        <div className="box justify-items-end cursor-pointer">
           <Link href="/userCompte" passHref>
             <div>
               <p className="text-slate-600 text-sm mr-4 ">Identifiez-vous</p>
@@ -39,7 +39,7 @@ export default function Header() {
           </div>
         </div>
 
-        <div className="flex justify-center">
+        <div className="flex justify-end">
           <div className="flex-around hover:w-1/7 group">
             <a
               href="#"
