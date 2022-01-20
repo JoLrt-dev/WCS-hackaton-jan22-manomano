@@ -9,5 +9,6 @@ module.exports = {
         primary: "#F2F2F2",
       },
     },
+    plugins: [require("tailwind-hamburgers")],
   },
 };
