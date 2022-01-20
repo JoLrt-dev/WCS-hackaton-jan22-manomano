@@ -1,4 +1,8 @@
-export default function myProfil() {
+import React from "react";
+import avatar from "../public/Img/avatar-mr-brico.webp";
+import Image from "next/image";
+
+export default function MyProfil() {
   return (
     <div>
       <div className="bg-blue-900 p-10 flex flex-row">
@@ -10,6 +14,7 @@ export default function myProfil() {
               width="60px"
               height="60px"
               className="items-end"
+              alt="avatar"
             />
           </div>
           <div className=" bg-green-600 ">

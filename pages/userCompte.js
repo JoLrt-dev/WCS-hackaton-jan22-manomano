@@ -1,4 +1,5 @@
 import Link from "next/link";
+import MyProfil from "../components/MyProfil";
 
 import { RiArrowRightSLine } from "react-icons/ri";
 import Layout from "../components/Layout";
@@ -7,10 +8,11 @@ export default function user() {
   return (
     <div>
       <Layout>
+        <MyProfil />
         <h1 className="m-5 text-2xl">Bienvenue sur votre compte !</h1>
         <h2 className="m-5 text-xl">Ici, vous êtes comme à la maison</h2>
         <h3 className="m-5 text-xl font-extrabold">Mes commandes</h3>
-        <div className="pl-5 pt-2 h-10">Toutes mes commandes</div>
+        <div className="pl-5 pt-2 h-10 bg-white">Toutes mes commandes</div>
         <div className="bg-primary ">
           <h3 className="p-5 text-xl font-extrabold bg-primary">
             Ma contribution
