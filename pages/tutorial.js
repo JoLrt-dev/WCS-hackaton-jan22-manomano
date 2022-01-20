@@ -45,7 +45,7 @@ export default function Tutorial() {
               <span className="font-medium mr-2 text-blue-600">
                 Braydoncoyer
               </span>{" "}
-              J{`'`}ai testé la perceuse TEENO et je vous livre mon sentiment
+              J&apos;ai testé la perceuse TEENO et je vous livre mon sentiment
               sur sa qualité et ses performances.
             </div>
           </div>
@@ -146,7 +146,7 @@ export default function Tutorial() {
           <div className="mb-2">
             <div className="mb-2 text-sm">
               <span className="font-medium mr-2 text-blue-600">Samantha</span>{" "}
-              Merci pour cette exellente vidéo Nath, j{`'`}ai pu récupérer tes
+              Merci pour cette exellente vidéo Nath, j&apos;ai pu récupérer tes
               idées et améliorer mon intérieur simplement. Le résultat est
               parfait, merci encore pour cette participation.
             </div>
@@ -178,7 +178,7 @@ export default function Tutorial() {
           <div className="pt-1">
             <div className="mb-2 text-sm">
               <span className="font-medium mr-2 text-blue-600">Sarah</span>{" "}
-              Dans cette vidéo je réponds aux questions que l'on me pose le plus souvent sur le bricolage et sur l'aménagement.
+              Dans cette vidéo je réponds aux questions que l&apos;on me pose le plus souvent sur le bricolage et sur l&apos;aménagement.
           </div>
           <div className="text-sm mb-2 text-gray-400 cursor-pointer font-medium">
             Vue avec 1500 commentaires
@@ -186,7 +186,7 @@ export default function Tutorial() {
           <div className="mb-2">
             <div className="mb-2 text-sm">
               <span className="font-medium mr-2 text-blue-600">Hélène</span>{" "}
-              Merci FAQ c{`'`}était très intéressant et les questions posées pertinentes
+              Merci FAQ c&apos;était très intéressant et les questions posées pertinentes
             </div>
           </div>
         </div>

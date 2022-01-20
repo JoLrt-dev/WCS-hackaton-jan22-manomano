@@ -17,6 +17,7 @@ export default function myPoints() {
                 width="60px"
                 height="60px"
                 className="items-end"
+                alt=""
               />
             </div>
             <div className=" bg-green-600 ">

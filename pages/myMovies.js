@@ -21,6 +21,7 @@ export default function myMovies() {
                 width="60px"
                 height="60px"
                 className="items-end"
+                alt=""
               />
             </div>
             <div className=" bg-green-600 ">
