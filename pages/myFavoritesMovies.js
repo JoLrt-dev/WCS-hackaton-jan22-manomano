@@ -3,6 +3,8 @@ import ReactPlayer from "react-player";
 import avatar from "../public/Img/avatar-mr-brico.webp";
 import Image from "next/image";
 import avatar1 from "../public/Img/avatar1.jpeg";
+import { BsArrowLeft } from "react-icons/bs";
+import Link from "next/link";
 
 export default function myfavoritesMovies() {
   return (
@@ -34,12 +36,17 @@ export default function myfavoritesMovies() {
           </div>
         </div>
         {/* ---------------------------------------------------------------------------- */}
+        <Link href="/userCompte">
+          <a>
+            <BsArrowLeft className="ml-5 mt-2" size={28} />
+          </a>
+        </Link>
 
         <h1 className="text-2xl m-10 text-center font-extrabold">
           Mes tutoriels favoris
         </h1>
-
-        <div className=" rounded overflow-hidden border w-50 lg:w-6/12 md:w-6/12 bg-white mx-3 ">
+        {/*  --------------------------------card--------------------------------------------------- */}
+        <div className=" shadow-2xl rounded overflow-hidden border w-50 lg:w-6/12 md:w-6/12 bg-white mx-3 ">
           <div className="w-full flex justify-between p-3">
             <div className="flex">
               <div className="rounded-full h-12 w-12  bg-gray-500 flex items-center justify-center overflow-hidden">
@@ -88,8 +95,8 @@ export default function myfavoritesMovies() {
             </div>
           </div>
         </div>
-
-        <div className=" m-3 rounded overflow-hidden border w-50 lg:w-6/12 md:w-6/12 bg-white mx-3 ">
+        {/* -------------------------------card---------------------------------------------------- */}
+        <div className=" shadow-2xl m-3 rounded overflow-hidden border w-50 lg:w-6/12 md:w-6/12 bg-white mx-3 ">
           <div className="w-full flex justify-between p-3">
             <div className="flex">
               <div className="rounded-full h-12 w-12  bg-gray-500 flex items-center justify-center overflow-hidden">
