@@ -5,7 +5,7 @@ import Link from "next/link";
 import { BsArrowLeft } from "react-icons/bs";
 import { writeStorage, useLocalStorage } from "@rehooks/local-storage";
 
-export default function addMovie() {
+export default function AddMovie() {
   const router = useRouter();
   const [nameVideo, setNameVideo] = useLocalStorage("name");
   const [url, setUrl] = useLocalStorage("urm");
