@@ -18,6 +18,7 @@ export default function myfavoritesMovies() {
                 width="60px"
                 height="60px"
                 className="items-end"
+                alt=""
               />
             </div>
             <div className=" bg-green-600 ">
@@ -70,7 +71,7 @@ export default function myfavoritesMovies() {
                 <span className="font-medium mr-2 text-blue-600">
                   Braydoncoyer
                 </span>{" "}
-                J{`'`}ai testé la perceuse TEENO et je vous livre mon sentiment
+                J&apos;ai testé la perceuse TEENO et je vous livre mon sentiment
                 sur sa qualité et ses performances.
               </div>
             </div>
