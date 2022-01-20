@@ -17,40 +17,40 @@ export default function Home() {
       <Slider />
 
       <Category
-        title={"Notre sélection Maison"}
-        tagLine={"Plein de produits pour vous, réunis ici"}
+        title={"Our selection for your Home"}
+        tagLine={"Full of our best products, just for you"}
       />
       <div className="flex justify-around">
         {" "}
         <ProductCard
           picture={Maison1}
-          productName={"Produit Maison 1"}
+          productName={"SARA Chairs, by 6"}
           reviews={"327"}
           price={"77€99"}
         />
         <ProductCard
           picture={Maison2}
-          productName={"Produit Maison 2"}
+          productName={"Bedframe 140x190"}
           reviews={"171"}
           price={"92€99"}
         />
       </div>
 
       <Category
-        title={"Nos top ventes"}
-        tagLine={"Oui, ces produits sont vraiment top"}
+        title={"Best-Sellers"}
+        tagLine={"Yeah, those are really great"}
       />
       <div className="flex justify-around">
         {" "}
         <ProductCard
           picture={Top1}
-          productName={"Produit Top 1"}
+          productName={"L-shapped corner sofa"}
           reviews={"327"}
           price={"422€99"}
         />
         <ProductCard
           picture={Top2}
-          productName={"Produit Top 2"}
+          productName={"Industrial desk"}
           reviews={"171"}
           price={"69€99"}
         />
