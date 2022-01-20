@@ -6,7 +6,7 @@ import { CgShoppingCart } from "react-icons/cg";
 
 export default function Header() {
   return (
-    <header className="min-h-screen bg-gray-50">
+    <header className=" bg-gray-50">
       <nav className="flex justify-between p-2 items-center">
         <div className="flex items-center space-x-2">
           <Link href="/">
