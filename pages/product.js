@@ -14,12 +14,12 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 SwiperCore.use([Autoplay, Pagination, Navigation]);
-import gants from "../public/Img/gants.jpeg"
-import masque from "../public/Img/masque.jpeg"
-import pince from "../public/Img/pince.webp"
-import coffret from "../public/Img/coffret.webp"
-import batterie from "../public/Img/batterie.jpeg"
-import lunettes from "../public/Img/lunettes.webp"
+import gants from "../public/Img/gants.jpeg";
+import masque from "../public/Img/masque.jpeg";
+import pince from "../public/Img/pince.webp";
+import coffret from "../public/Img/coffret.webp";
+import batterie from "../public/Img/batterie.jpeg";
+import lunettes from "../public/Img/lunettes.webp";
 
 export default function Product() {
   const [count, setCount] = useState(0);
@@ -36,7 +36,7 @@ export default function Product() {
       <div className="flex flex-wrap items-center justify-center">
         <div className="w-200 flex justify-center items-center">
           <div className="w-full p-1">
-            <div className="card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl">
+            <div className="card flex flex-col justify-center bg-white shadow-2xl">
               <Image
                 src={perceuse}
                 alt=""
@@ -55,7 +55,7 @@ export default function Product() {
 
       <div className="w-200 flex justify-center items-center pt-2">
         <div className="w-full">
-          <div className="card flex flex-col justify-center p-6 bg-white rounded-lg shadow-2xl">
+          <div className="card flex flex-col justify-center p-6 bg-white shadow-2xl">
             <div className="prod-title">
               <p className="text-l uppercase text-gray font-bold">
                 REF 5816 | ME9259885
@@ -69,18 +69,16 @@ export default function Product() {
               </p>
               <p className="text-sm text-gray-800 p-2">En stock</p>
               <div className="flex">
-                <BsStarFill size="20px" className={styles.rate}/>
-                <BsStarFill size="20px" className={styles.rate}/>
-                <BsStarFill size="20px" className={styles.rate}/>
-                <BsStarFill size="20px" className={styles.rate}/>
-                <BsStar size="20px" className={styles.rate}/>
+                <BsStarFill size="20px" className={styles.rate} />
+                <BsStarFill size="20px" className={styles.rate} />
+                <BsStarFill size="20px" className={styles.rate} />
+                <BsStarFill size="20px" className={styles.rate} />
+                <BsStar size="20px" className={styles.rate} />
               </div>
             </div>
             <div className="prod-img"></div>
             <div className="prod-info grid gap-10">
-              <div className="flex flex-col md:flex-row justify-between items-center text-gray-900">
-                <p className="font-bold text-3xl text-gray-900">Prix : 56 €</p>
-              </div>
+              <p className="font-bold text-3xl text-gray-900">Prix : 56 €</p>
             </div>
           </div>
         </div>
@@ -88,7 +86,7 @@ export default function Product() {
 
       <div className="w-200 flex justify-center items-center pt-2">
         <div className="w-full">
-          <div className="card flex flex-col justify-center p-6 bg-white rounded-lg shadow-2xl">
+          <div className="card flex flex-col justify-center p-6 bg-white shadow-2xl">
             <div className="prod-title">
               <div className="custom-number-input h-10 w-32">
                 <label
@@ -167,120 +165,132 @@ export default function Product() {
       associated products
                   </p>
       <Swiper
-            spaceBetween={30}
-            centeredSlides={true}
-            autoplay={{
-              delay: 6000,
-              disableOnInteraction: false,
-            }}
-            pagination={{
-              clickable: true,
-            }}
-            navigation={true}
-            className={styles.swiper}
-          >
-        <SwiperSlide><div className="w-200 flex justify-center items-center">
-          <div className="w-full p-1">
-            <div className="card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl">
-              <Image
-                src={gants}
-                alt=""
-                //   width={700}
-                //   height={700}
-                className="w-full object-cover object-center"
-                Layout="responsive"
-              />
-            </div>
-            <div className="prod-info grid gap-10">
-              <div className="flex flex-col md:flex-row justify-between items-center text-gray-900"></div>
-            </div>
-          </div>
-        </div></SwiperSlide>
-        <SwiperSlide><div className="w-200 flex justify-center items-center">
-          <div className="w-full p-1">
-            <div className="card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl">
-              <Image
-                src={masque}
-                alt=""
-                //   width={700}
-                //   height={700}
-                className="w-full object-cover object-center"
-                Layout="responsive"
-              />
-            </div>
-            <div className="prod-info grid gap-10">
-              <div className="flex flex-col md:flex-row justify-between items-center text-gray-900"></div>
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 6000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        className={styles.swiper}
+      >
+        <SwiperSlide>
+          <div className="w-200 flex justify-center items-center">
+            <div className="w-full p-1">
+              <div className="card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl">
+                <Image
+                  src={gants}
+                  alt=""
+                  //   width={700}
+                  //   height={700}
+                  className="w-full object-cover object-center"
+                  Layout="responsive"
+                />
+              </div>
+              <div className="prod-info grid gap-10">
+                <div className="flex flex-col md:flex-row justify-between items-center text-gray-900"></div>
+              </div>
             </div>
           </div>
-        </div></SwiperSlide>
-        <SwiperSlide><div className="w-200 flex justify-center items-center">
-          <div className="w-full p-1">
-            <div className="card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl">
-              <Image
-                src={lunettes}
-                alt=""
-                //   width={700}
-                //   height={700}
-                className="w-full object-cover object-center"
-                Layout="responsive"
-              />
-            </div>
-            <div className="prod-info grid gap-10">
-              <div className="flex flex-col md:flex-row justify-between items-center text-gray-900"></div>
-            </div>
-          </div>
-        </div></SwiperSlide>
-        <SwiperSlide><div className="w-200 flex justify-center items-center">
-          <div className="w-full p-1">
-            <div className="card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl">
-              <Image
-                src={pince}
-                alt=""
-                //   width={700}
-                //   height={700}
-                className="w-full object-cover object-center"
-                Layout="responsive"
-              />
-            </div>
-            <div className="prod-info grid gap-10">
-              <div className="flex flex-col md:flex-row justify-between items-center text-gray-900"></div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-200 flex justify-center items-center">
+            <div className="w-full p-1">
+              <div className="card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl">
+                <Image
+                  src={masque}
+                  alt=""
+                  //   width={700}
+                  //   height={700}
+                  className="w-full object-cover object-center"
+                  Layout="responsive"
+                />
+              </div>
+              <div className="prod-info grid gap-10">
+                <div className="flex flex-col md:flex-row justify-between items-center text-gray-900"></div>
+              </div>
             </div>
           </div>
-        </div></SwiperSlide>
-        <SwiperSlide><div className="w-200 flex justify-center items-center">
-          <div className="w-full p-1">
-            <div className="card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl">
-              <Image
-                src={coffret}
-                alt=""
-                //   width={700}
-                //   height={700}
-                className="w-full object-cover object-center"
-                Layout="responsive"
-              />
-            </div>
-            <div className="prod-info grid gap-10">
-              <div className="flex flex-col md:flex-row justify-between items-center text-gray-900"></div>
-            </div>
-          </div>
-        </div></SwiperSlide>
-        <SwiperSlide><div className="w-200 flex justify-center items-center">
-          <div className="w-full p-1">
-            <div className="card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl">
-              <Image
-                src={batterie}
-                alt=""
-                //   width={700}
-                //   height={700}
-                className="w-full object-cover object-center"
-                Layout="responsive"
-              />
-            </div>
-            <div className="prod-info grid gap-10">
-              <div className="flex flex-col md:flex-row justify-between items-center text-gray-900"></div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-200 flex justify-center items-center">
+            <div className="w-full p-1">
+              <div className="card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl">
+                <Image
+                  src={lunettes}
+                  alt=""
+                  //   width={700}
+                  //   height={700}
+                  className="w-full object-cover object-center"
+                  Layout="responsive"
+                />
+              </div>
+              <div className="prod-info grid gap-10">
+                <div className="flex flex-col md:flex-row justify-between items-center text-gray-900"></div>
+              </div>
             </div>
           </div>
-        </div></SwiperSlide>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-200 flex justify-center items-center">
+            <div className="w-full p-1">
+              <div className="card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl">
+                <Image
+                  src={pince}
+                  alt=""
+                  //   width={700}
+                  //   height={700}
+                  className="w-full object-cover object-center"
+                  Layout="responsive"
+                />
+              </div>
+              <div className="prod-info grid gap-10">
+                <div className="flex flex-col md:flex-row justify-between items-center text-gray-900"></div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-200 flex justify-center items-center">
+            <div className="w-full p-1">
+              <div className="card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl">
+                <Image
+                  src={coffret}
+                  alt=""
+                  //   width={700}
+                  //   height={700}
+                  className="w-full object-cover object-center"
+                  Layout="responsive"
+                />
+              </div>
+              <div className="prod-info grid gap-10">
+                <div className="flex flex-col md:flex-row justify-between items-center text-gray-900"></div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-200 flex justify-center items-center">
+            <div className="w-full p-1">
+              <div className="card flex flex-col justify-center p-10 bg-white rounded-lg shadow-2xl">
+                <Image
+                  src={batterie}
+                  alt=""
+                  //   width={700}
+                  //   height={700}
+                  className="w-full object-cover object-center"
+                  Layout="responsive"
+                />
+              </div>
+              <div className="prod-info grid gap-10">
+                <div className="flex flex-col md:flex-row justify-between items-center text-gray-900"></div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </Layout>
   );

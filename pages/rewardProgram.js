@@ -11,44 +11,38 @@ const rewardProgram = () => {
         id="conditions-bloc"
       >
         <h5 className="underline underline-offset-2 text-lg font-bold pb-6">
-          ManoPoints en quelques points:
+          ManoPoints in few points:
         </h5>
         <div id="conditions-list">
           <ul className="list-disc pl-8">
             <li className="pb-4">
-              Depuis votre espace client, postez vos tutoriels en vidéo. Une
-              fois validé par notre équipe de super modérateurs, la vidéo sera
-              &apos;ensemble de la communauté ManoMano et vous recevrez 30
-              ManoPoints. Si vous n&apos;avez pas encore de compte client,
-              cliquez ici pour y remédier.
+              Post tutorials from your personnal account. Once moderated by our
+              team of super-heroes, your video could be seen by the entire
+              ManoMano community and you will received 30 ManoPoints. You
+              d&apos;ont have any account ? Not a problem, just click here.
             </li>
             <li className="pb-4">
-              A partir de 500 vues, vous recevez 15 ManoPoints supplémentaires,
-              puis 15 ManoPoints toutes les 100 vues. Si votre vidéo est vue 700
-              fois, vous recevez donc un total de 60 ManoPoints !
+              Once your video will reach the 500 views, you will receive 15 more
+              ManoPoints, then 15 more every 100 views. As an example, if your
+              video is seen 700 times, you will get 60 ManoPoints.
             </li>
             <li className="pb-4">
-              Tous les 150 ManoPoints, bénéficiez d&apos;une réduction de 5% de
-              réduction sur votre prochaine commande.
+              Every 150 ManoPoints, enjoy a 5% discount on your next purchase.
             </li>
             <li className="pb-4">
               {" "}
-              Vous pouvez consulter votre solde de ManoPoints à tout moment
-              depuis votre espace personnel.
+              You can consult and manage your ManoPoints at any time from your
+              personnal account.
             </li>
           </ul>
-          <p className="text-lg flex justify-center">
-            {" "}
-            N&apos;attendez plus, rejoignez nous !{" "}
-          </p>
+          <p className="text-lg flex justify-center"> Joins us now ! </p>
         </div>
       </div>
 
       <div id="post-video">
         <p className=" font-bold text-lg m-8 text-center">
           {" "}
-          Ajoutez dès maintenant votre premère vidéo et commencez à cumuler des
-          points !{" "}
+          Add your first video and and start earning Manopoints{" "}
         </p>
         <div className="flex justify-center">
           <Link href="/addMovie">
