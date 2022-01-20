@@ -25,10 +25,10 @@ export default function Header() {
 
         <div className="box justify-items-end cursor-pointer">
           <Link href="/userCompte" passHref>
-            <div>
+            <a>
               <p className="text-slate-600 text-sm mr-4 ">Identifiez-vous</p>
               <CgShoppingCart />
-            </div>
+            </a>
           </Link>
         </div>
 
