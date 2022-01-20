@@ -78,7 +78,7 @@ export default function Product() {
             </div>
             <div className="prod-img"></div>
             <div className="prod-info grid gap-10">
-              <p className="font-bold text-3xl text-gray-900">Prix : 56 €</p>
+              <p className="font-bold text-3xl text-gray-900">Price : 56 €</p>
             </div>
           </div>
         </div>
