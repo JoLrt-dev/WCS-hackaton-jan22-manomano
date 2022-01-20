@@ -5,9 +5,9 @@ import { BiChevronLeft } from "react-icons/bi";
 const Category = ({ title, tagLine }) => {
   return (
     <div className="m-4">
-      <div className="flex justify-between items-center mt-10">
+      <div className="flex justify-between items-center mt-10 text-gray-900">
         <span>
-          <h2>{title}</h2>
+          <h2 className="font-bold">{title}</h2>
           <p>{tagLine}</p>
         </span>
         <span className="flex">

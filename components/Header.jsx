@@ -32,7 +32,7 @@ export default function Header() {
           </Link>
         </div>
 
-        <div className="box">
+        <div className="box ml-2">
           <AiOutlineMenu size={25} />
         </div>
 
@@ -53,6 +53,21 @@ export default function Header() {
           </div>
         </div>
       </nav>
+      <div className="flex justify-between items-center flex-wrap text-sm mx-4">
+        <p>Bons plans</p>
+        <p>Meilleurs plans</p>
+        <Link href="/product" passHref>
+          <a>
+            <p>Produits</p>
+          </a>
+        </Link>
+
+        <Link href="/tutorial" passHref>
+          <a>
+            <p>Tutoriels</p>
+          </a>
+        </Link>
+      </div>
     </header>
   );
 }

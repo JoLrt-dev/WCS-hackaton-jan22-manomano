@@ -14,7 +14,7 @@ import Category from "../components/Category";
 export default function Home() {
   return (
     <Layout>
-      <Slider/>
+      <Slider />
 
       <Category
         title={"Notre sélection Maison"}
