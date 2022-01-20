@@ -18,7 +18,7 @@ export default function Tutorial() {
           matériel
         </h3>
       </div>
-      <div className="rounded overflow-hidden border w-full lg:w-6/12 md:w-6/12 bg-white mx-3 md:mx-0 lg:mx-0 mb-4 ">
+      <div className="rounded overflow-hidden border shadow-2xl w-full lg:w-6/12 md:w-6/12 bg-white  md:mx-0 lg:mx-0 mb-4 ">
         <div className="w-full flex justify-between p-3">
           <div className="flex">
             <div className="rounded-full h-12 w-12  bg-gray-500 flex items-center justify-center overflow-hidden">
@@ -50,7 +50,7 @@ export default function Tutorial() {
             </div>
           </div>
           <div className="text-sm mb-2 text-gray-400 cursor-pointer font-medium">
-            Vue des 14 commentaires
+            Vu des 14 commentaires
           </div>
           <div className="mb-2">
             <div className="mb-2 text-sm">
@@ -63,7 +63,7 @@ export default function Tutorial() {
           </div>
         </div>
       </div>
-      <div className=" rounded overflow-hidden border w-full lg:w-6/12 md:w-6/12 bg-white mx-3 md:mx-0 lg:mx-0">
+      <div className=" rounded overflow-hidden border shadow-2xl w-full lg:w-6/12 md:w-6/12 bg-white  md:mx-0 lg:mx-0">
         <div className="w-full flex justify-between p-3">
           <div className="flex">
             <div className="rounded-full h-12 w-12 bg-gray-500 flex items-center justify-center overflow-hidden">
@@ -95,7 +95,7 @@ export default function Tutorial() {
             </div>
           </div>
           <div className="text-sm mb-2 text-gray-400 cursor-pointer font-medium">
-            View all 12 comments
+            Vu avec 12 commentaires
           </div>
           <div className="mb-2">
             <div className="mb-2 text-sm">
@@ -111,7 +111,7 @@ export default function Tutorial() {
       <h3 className="text-l uppercase text-gray font-bold text-center m-5">
         aménagement
       </h3>
-      <div className=" rounded overflow-hidden border w-full lg:w-6/12 md:w-6/12 bg-white mx-3 md:mx-0 lg:mx-0 mb-4">
+      <div className=" rounded overflow-hidden border shadow-2xl w-full lg:w-6/12 md:w-6/12 bg-white md:mx-0 lg:mx-0 mb-4">
         <div className="w-full flex justify-between p-3">
           <div className="flex">
             <div className="rounded-full h-12 w-12 bg-gray-500 flex items-center justify-center overflow-hidden">
@@ -141,7 +141,7 @@ export default function Tutorial() {
             </div>
           </div>
           <div className="text-sm mb-2 text-gray-400 cursor-pointer font-medium">
-            View all 12 comments
+            Vu avec 12 commentaires
           </div>
           <div className="mb-2">
             <div className="mb-2 text-sm">
@@ -153,7 +153,7 @@ export default function Tutorial() {
           </div>
         </div>
       </div>
-      <div className=" rounded overflow-hidden border w-full lg:w-6/12 md:w-6/12 bg-white mx-3 md:mx-0 lg:mx-0">
+      <div className=" rounded overflow-hidden border shadow-2xl w-full lg:w-6/12 md:w-6/12 bg-white md:mx-0 lg:mx-0">
         <div className="w-full flex justify-between p-3">
           <div className="flex">
             <div className="rounded-full h-12 w-12 bg-gray-500 flex items-center justify-center overflow-hidden">
@@ -178,15 +178,15 @@ export default function Tutorial() {
           <div className="pt-1">
             <div className="mb-2 text-sm">
               <span className="font-medium mr-2 text-blue-600">Sarah</span>{" "}
-              Dans cette vidéo je réponds aux questions que l'on me pose le plus souvent sur le bricolage et sur l'aménagement.
+              Dans cette vidéo je réponds aux questions que l{`'`}on me pose le plus souvent sur le bricolage et sur l{`'`}aménagement.
           </div>
           <div className="text-sm mb-2 text-gray-400 cursor-pointer font-medium">
-            Vue avec 1500 commentaires
+            Vu avec 1500 commentaires
           </div>
           <div className="mb-2">
             <div className="mb-2 text-sm">
               <span className="font-medium mr-2 text-blue-600">Hélène</span>{" "}
-              Merci FAQ c{`'`}était très intéressant et les questions posées pertinentes
+              Merci FAQ très intéressante et les questions posées pertinentes
             </div>
           </div>
         </div>
