@@ -6,6 +6,7 @@ import { CgShoppingCart } from "react-icons/cg";
 import { VscSearch } from "react-icons/vsc";
 import { AiOutlineMenu } from "react-icons/ai";
 
+
 export default function Header() {
   return (
     <header className=" bg-gray-50">
@@ -26,9 +27,8 @@ export default function Header() {
         <div className="box justify-items-end cursor-pointer">
           <Link href="/userCompte" passHref>
             <a>
-              <p className="text-slate-600 text-sm mr-4 flex">
-                Mon compte <CgShoppingCart />
-              </p>
+              <p className="text-slate-600 text-sm mr-4 flex">Mon compte <CgShoppingCart /></p>
+              
             </a>
           </Link>
         </div>
@@ -43,13 +43,16 @@ export default function Header() {
               href="#"
               className="flex items-center justify-center text-center mx-auto px-4 py-2 group-hover:w-1/5 text-black"
             >
+             
               <input
                 type="search"
                 name="search"
-                className="  z-10 ml-3 align-bottom p-1 pl-4 md:w-15"
+                className=" rounded-2xl z-10 ml-3 align-bottom p-1 pl-4 md:w-15"
                 placeholder="Rechercher un produit..."
               />
-              <VscSearch className="" />
+              <VscSearch className=""/>
+           
+              
             </a>
           </div>
         </div>
