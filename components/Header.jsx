@@ -32,7 +32,7 @@ export default function Header() {
           </Link>
         </div>
 
-        <div className="box">
+        <div className="box ml-2">
           <AiOutlineMenu size={25} />
         </div>
 
