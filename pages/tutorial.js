@@ -12,10 +12,10 @@ export default function Tutorial() {
     <Layout>
       <div className="title">
         <h1 className="text-l uppercase text-gray font-bold text-center">
-          Tutoriels Bricolage
+        DIY Tutorials
         </h1>
         <h3 className="text-l uppercase text-gray font-bold text-center m-6">
-          matériel
+          material
         </h3>
       </div>
       <div className="rounded overflow-hidden border shadow-2xl w-full lg:w-6/12 md:w-6/12 bg-white  md:mx-0 lg:mx-0 mb-4 ">
@@ -45,20 +45,20 @@ export default function Tutorial() {
               <span className="font-medium mr-2 text-blue-600">
                 Braydoncoyer
               </span>{" "}
-              J&apos;ai testé la perceuse TEENO et je vous livre mon sentiment
-              sur sa qualité et ses performances.
+              I have tested the TEENO drill and I give you my feeling
+              on its quality and performance.
             </div>
           </div>
           <div className="text-sm mb-2 text-gray-400 cursor-pointer font-medium">
-            Vu des 14 commentaires
+            View all 14 comments
           </div>
           <div className="mb-2">
             <div className="mb-2 text-sm">
               <span className="font-medium mr-2 text-blue-600">
                 SuperBricolo
               </span>{" "}
-              Merci pour cette superbe vidéo, qui a fait finaliser mon achat de
-              cette perceuse !
+              Thank you for this great video, which made me finalize my purchase of
+              this drill !
             </div>
           </div>
         </div>
@@ -90,26 +90,26 @@ export default function Tutorial() {
               <span className="font-medium mr-2 text-blue-600">
                 Robert Brico
               </span>{" "}
-              Dans cette vidéo je vous présente les différentes méthodes pour
-              scier et découper le métal.
+              In this video I present you the different methods to
+              sawing and cutting metal.
             </div>
           </div>
           <div className="text-sm mb-2 text-gray-400 cursor-pointer font-medium">
-            Vu avec 12 commentaires
+          View all 12 comments
           </div>
           <div className="mb-2">
             <div className="mb-2 text-sm">
               <span className="font-medium mr-2 text-blue-600">
                 Pierrot le bricolo
               </span>{" "}
-              Merci pour cette exellente vidéo Robert, très utile pour mes
-              prochains travaux.
+              Thank you for this excellent video Robert, very useful for my
+              future work.
             </div>
           </div>
         </div>
       </div>
       <h3 className="text-l uppercase text-gray font-bold text-center m-5">
-        aménagement
+        Intérior Design
       </h3>
       <div className=" rounded overflow-hidden border shadow-2xl w-full lg:w-6/12 md:w-6/12 bg-white md:mx-0 lg:mx-0 mb-4">
         <div className="w-full flex justify-between p-3">
@@ -136,19 +136,19 @@ export default function Tutorial() {
           <div className="pt-1">
             <div className="mb-2 text-sm">
               <span className="font-medium mr-2 text-blue-600">Nath Brico</span>{" "}
-              Dans cette vidéo je vous donne des conseils pour aménager
-              simplement votre intérieur de façon ludique et économique.
+              In this video I give you tips on how to design your interior
+              your interior in a fun and economical way.
             </div>
           </div>
           <div className="text-sm mb-2 text-gray-400 cursor-pointer font-medium">
-            Vu avec 12 commentaires
+            View all 12 comments
           </div>
           <div className="mb-2">
             <div className="mb-2 text-sm">
               <span className="font-medium mr-2 text-blue-600">Samantha</span>{" "}
-              Merci pour cette exellente vidéo Nath, j&apos;ai pu récupérer tes
-              idées et améliorer mon intérieur simplement. Le résultat est
-              parfait, merci encore pour cette participation.
+              Thank you for this excellent video Nath, I was able to pick up your
+              ideas and improve my interior simply. The result is
+              perfect, thank you again for this participation.
             </div>
           </div>
         </div>
@@ -178,15 +178,15 @@ export default function Tutorial() {
           <div className="pt-1">
             <div className="mb-2 text-sm">
               <span className="font-medium mr-2 text-blue-600">Sarah</span>{" "}
-              Dans cette vidéo je réponds aux questions que l&apos;on me pose le plus souvent sur le bricolage et sur l&apos;aménagement.
+              In this video I answer the questions I am most often asked about DIY and home improvement.
           </div>
           <div className="text-sm mb-2 text-gray-400 cursor-pointer font-medium">
-            Vu avec 1500 commentaires
+            View all 1500 comments
           </div>
           <div className="mb-2">
             <div className="mb-2 text-sm">
               <span className="font-medium mr-2 text-blue-600">Hélène</span>{" "}
-              Merci FAQ très intéressante et les questions posées pertinentes
+              Thank you very interesting FAQ and relevant questions asked
             </div>
           </div>
         </div>
