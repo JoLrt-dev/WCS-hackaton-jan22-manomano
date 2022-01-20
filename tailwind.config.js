@@ -4,7 +4,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#F2F2F2",
+      },
+    },
+    plugins: [require("tailwind-hamburgers")],
   },
-  plugins: [],
-}
+};
