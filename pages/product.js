@@ -53,7 +53,7 @@ export default function Product() {
         </div>
       </div>
 
-      <div className="w-200 flex justify-center items-center">
+      <div className="w-200 flex justify-center items-center pt-2">
         <div className="w-full">
           <div className="card flex flex-col justify-center p-6 bg-white rounded-lg shadow-2xl">
             <div className="prod-title">
@@ -86,7 +86,7 @@ export default function Product() {
         </div>
       </div>
 
-      <div className="w-200 flex justify-center items-center">
+      <div className="w-200 flex justify-center items-center pt-2">
         <div className="w-full">
           <div className="card flex flex-col justify-center p-6 bg-white rounded-lg shadow-2xl">
             <div className="prod-title">
@@ -136,7 +136,7 @@ export default function Product() {
               </div>
             </div>
           </div>
-          <div className="w-200 h-200 flex justify-center items-center">
+          <div className="w-200 h-200 flex justify-center items-center pt-2">
             <div className="w-full">
               <div className="card flex flex-col justify-center p-6 bg-white rounded-lg shadow-2xl">
                 <div className="prod-title">
