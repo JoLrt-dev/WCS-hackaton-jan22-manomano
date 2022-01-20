@@ -90,7 +90,7 @@ export default function Product() {
             <div className="prod-title">
               <div className="custom-number-input h-10 w-32">
                 <label
-                  htmlfor="custom-input-number"
+                  htmlFor="custom-input-number"
                   className="w-full text-gray-700 text-sm font-semibold"
                 ></label>
                 <div className="flex flex-row h-10 w-full rounded-lg relative bg-transparent mt-1">
