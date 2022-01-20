@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import avatar from "../public/Img/avatar-mr-brico.webp";
 import Image from "next/image";
 
-export default function addMovie() {
+export default function AddMovie() {
   const router = useRouter();
   const [nameVideo, setNameVideo] = useState("");
   const [url, setUrl] = useState("");
