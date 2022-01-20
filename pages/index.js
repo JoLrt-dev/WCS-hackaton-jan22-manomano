@@ -1,10 +1,21 @@
 import Slider from "../components/Slider";
 import Layout from "../components/Layout";
 import React, { useState } from "react";
+import ProductCard from "../components/ProductCard";
+// Images and Assets
 import Image from "next/image";
-import perceuse from "../public/Img/perceuse.png";
+import Top1 from "../public/Img/Top1.jpeg";
+import Top2 from "../public/Img/Top2.jpeg";
+import Maison1 from "../public/Img/Maison1.jpeg";
+import Maison2 from "../public/Img/Maison2.jpeg";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+// React-Icons
+import { BiChevronRight } from "react-icons/bi";
+import { BiChevronLeft } from "react-icons/bi";
+import { BsStarFill } from "react-icons/bs";
+import { BsStarHalf } from "react-icons/bs";
+import { BsStar } from "react-icons/bs";
 
 export default function Home() {
   return (
@@ -13,34 +24,60 @@ export default function Home() {
 
       {/* Category */}
       <div className="m-4">
-        <h1>Notre sélection Maison</h1>
-        <p>Plein de produits pour vous réunis ici</p>
-
-        {/* First Product Card */}
-        <div className="flex justify-around items-center">
-          <div className="rounded shadow-md p-2">
-            <Image src={perceuse} alt="" height={100} width={100} />
-            <p className="">Nom du produit</p>
-            <p>Note et avis</p>
-            <p>Prix</p>
-          </div>
-
-          {/* Second Product Card */}
-          <div className="rounded shadow-md p-2">
-            <Image src={perceuse} alt="" height={100} width={100} />
-            <p className="">Nom du produit</p>
-            <p>Note et avis</p>
-            <p>Prix</p>
-          </div>
-
-          {/* Third Product Card */}
-          <div className="rounded shadow-md p-2">
-            <Image src={perceuse} alt="" height={100} width={100} />
-            <p className="">Nom du produit</p>
-            <p>Note et avis</p>
-            <p>Prix</p>
-          </div>
+        <div className="flex justify-between items-center">
+          <span>
+            <h2>Notre sélection Maison</h2>
+            <p>Plein de produits pour vous réunis ici</p>
+          </span>
+          <span className="flex">
+            <BiChevronLeft size={"2em"} color="#d8dadf" />
+            <BiChevronRight size={"2em"} />
+          </span>
         </div>
+      </div>
+      <div className="flex justify-around">
+        {" "}
+        <ProductCard
+          picture={Maison1}
+          productName={"Produit Maison 1"}
+          reviews={"327"}
+          price={"77€99"}
+        />
+        <ProductCard
+          picture={Maison2}
+          productName={"Produit Maison 2"}
+          reviews={"171"}
+          price={"92€99"}
+        />
+      </div>
+
+      {/* Category */}
+      <div className="m-4">
+        <div className="flex justify-between items-center">
+          <span>
+            <h2>Nos top ventes</h2>
+            <p>Oui, ces produits sont vraiment top</p>
+          </span>
+          <span className="flex">
+            <BiChevronLeft size={"2em"} color="#d8dadf" />
+            <BiChevronRight size={"2em"} />
+          </span>
+        </div>
+      </div>
+      <div className="flex justify-around">
+        {" "}
+        <ProductCard
+          picture={Top1}
+          productName={"Produit Top 1"}
+          reviews={"327"}
+          price={"422€99"}
+        />
+        <ProductCard
+          picture={Top2}
+          productName={"Produit Top 2"}
+          reviews={"171"}
+          price={"69€99"}
+        />
       </div>
     </Layout>
   );

@@ -1,0 +1,27 @@
+.card {
+  /* rounded shadow-md p-2 m-2" */
+  border-radius: 6px;
+  margin: 8px;
+  padding: 8px;
+  box-shadow: 3px 3px 7px 3px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  font-size: medium;
+}
+
+.rateAndReviews {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.rate {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.reviews {
+  padding-left: 6px;
+}
