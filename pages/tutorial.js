@@ -50,7 +50,7 @@ export default function Tutorial() {
             </div>
           </div>
           <div className="text-sm mb-2 text-gray-400 cursor-pointer font-medium">
-            Vue des 14 commentaires
+            Vu des 14 commentaires
           </div>
           <div className="mb-2">
             <div className="mb-2 text-sm">
@@ -95,7 +95,7 @@ export default function Tutorial() {
             </div>
           </div>
           <div className="text-sm mb-2 text-gray-400 cursor-pointer font-medium">
-            View all 12 comments
+            Vu avec 12 commentaires
           </div>
           <div className="mb-2">
             <div className="mb-2 text-sm">
@@ -141,7 +141,7 @@ export default function Tutorial() {
             </div>
           </div>
           <div className="text-sm mb-2 text-gray-400 cursor-pointer font-medium">
-            View all 12 comments
+            Vu avec 12 commentaires
           </div>
           <div className="mb-2">
             <div className="mb-2 text-sm">
@@ -181,12 +181,12 @@ export default function Tutorial() {
               Dans cette vidéo je réponds aux questions que l&apos;on me pose le plus souvent sur le bricolage et sur l&apos;aménagement.
           </div>
           <div className="text-sm mb-2 text-gray-400 cursor-pointer font-medium">
-            Vue avec 1500 commentaires
+            Vu avec 1500 commentaires
           </div>
           <div className="mb-2">
             <div className="mb-2 text-sm">
               <span className="font-medium mr-2 text-blue-600">Hélène</span>{" "}
-              Merci FAQ c&apos;était très intéressant et les questions posées pertinentes
+              Merci FAQ très intéressante et les questions posées pertinentes
             </div>
           </div>
         </div>
