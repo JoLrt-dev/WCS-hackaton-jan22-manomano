@@ -19,7 +19,7 @@ export default function myMovies() {
           </a>
         </Link>
         <h1 className="text-2xl m-10 text-center font-extrabold">
-          My tutoriels
+          My tutorials
         </h1>
         <Link href="/addMovie">
           <a>
