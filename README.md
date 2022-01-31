@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+## What the hell is this ? 
+
+This one was realised during a hackaton at the Wild Code School, in partnership with ManoMano, an european retailer of home furnitures, tools and accessories. 
+The hackaton took place from 19th to 21th January, 2022.
+The main idea was to came with a way to level-up the customer experience by proposing a way to access tutorial, share DIY project, and get rewards or discounts by interacting with the community.
+
 ## Getting Started
 
 First, run the development server:
